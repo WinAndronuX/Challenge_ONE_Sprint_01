@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge ONE Sprint 01</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <h1 class="title">Encriptador de texto</h1>
+    </header>
+    <section>
+        <div class="containerTextArea">
+            <div class="textArea1">
+                <label for="inputText"></label><textarea id="inputText" rows="8" placeholder="Escribe algo"></textarea>
+            </div>
+            <div class="textArea2">
+                <label for="inputResult"></label><textarea id="inputResult" rows="8" readonly></textarea>
+            </div>
+        </div>
+        <div class="containerButtons">
+            <button type="button" class="button" onclick="encriptarTexto()">Encriptar</button>
+            <button type="button" class="button blue" onclick="desencriptarTexto()">Desencriptar</button>
+            <button type="button" class="button green" onclick="copearResultado()">Copear</button>
+            <button type="button" class="button red" onclick="reset()">Reset</button>
+        </div>
+    </section>
+    <footer>
+        <p>Hecho por: <a href="https://github.com/WinAndronuX">Luis Daniel Salazar Sanchez</a></p>
+    </footer>
+</body>
+<script src="app.js"></script>
+</html>
