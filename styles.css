@@ -87,3 +87,11 @@ footer {
     position: absolute;
     bottom: 5px;
 }
+
+@media screen and (max-width: 580px),
+       screen and (max-height: 980px) {
+    footer {
+        position: relative;
+        bottom: 5px;
+    }
+}
